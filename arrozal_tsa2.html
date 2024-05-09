@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+ 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <title>Pokémon Data</title>
+ 
+    <style>
+ 
+        table {
+ 
+            border-collapse: collapse;
+ 
+            width: 100%;
+ 
+        }
+ 
+        th,
+        td {
+ 
+            padding: 8px;
+ 
+            text-align: center;
+ 
+        }
+ 
+        th {
+ 
+            background-color: #333;
+ 
+            color: white;
+ 
+        }
+ 
+        td {
+ 
+            background-color: #f2f2f2;
+ 
+        }
+    </style>
+ 
+</head>
+<title>Pokemon Data Form</title>
+<body align="center">
+<h1>Pokemon Data Form</h1>
+
+<form>
+
+<label for="nationalDex">National Dex:</label>
+
+<input type="number" id="nationalDex" name="nationalDex" min="0"><br><br>
+
+<label for="pokemonName">Pokemon Name:</label>
+
+<input type="text" id="pokemonName" name="pokemonName"><br><br>
+
+<label>Generation:</label><br>
+
+<input type="radio" id="gen1" name="generation" value="1">
+
+<label for="gen1">1st</label><br>
+
+<input type="radio" id="gen2" name="generation" value="2">
+
+<label for="gen2">2nd</label><br>
+
+<input type="radio" id="gen3" name="generation" value="3">
+
+<label for="gen3">3rd</label><br>
+
+<input type="radio" id="gen4" name="generation" value="4">
+
+<label for="gen4">4th</label><br>
+
+<input type="radio" id="gen5" name="generation" value="5">
+
+<label for="gen5">5th</label><br>
+
+<input type="radio" id="gen6" name="generation" value="6">
+
+<label for="gen6">6th</label><br>
+
+<input type="radio" id="gen7" name="generation" value="7">
+
+<label for="gen7">7th</label><br>
+
+<input type="radio" id="gen8" name="generation" value="8">
+
+<label for="gen8">8th</label><br>
+
+<input type="radio" id="gen9" name="generation" value="9">
+
+<label for="gen8">9th</label><br>
+
+<label for="img">Image:</label>
+
+<input type="file" id="img" name="img"><br><br>
+
+<label for="type1">Type 1:</label>
+
+<select id="type1" name="type1">
+
+    <option value="Grass">Grass</option>
+
+    <option value="Fire">Fire</option>
+    
+    <option value="Water">Water</option>
+    
+    <option value="Electric">Electric</option>
+    
+    <option value="Psychic">Psychic</option>
+    
+    <option value="Fairy">Fairy</option>
+    
+    <option value="Bug">Bug</option>
+    
+    <option value="Flying">Flying</option>
+    
+    <option value="Poison">Poison</option>
+    
+    <option value="Normal">Normal</option>
+    
+    <option value="Steel">Steel</option>
+    
+    <option value="Ghost">Ghost</option>
+    
+    <option value="Dark">Dark</option>
+
+</select><br><br>
+
+<label for="type2">Type 2:</label>
+
+<select id="type2" name="type2">
+
+<option value="Grass">Grass</option>
+
+<option value="Fire">Fire</option>
+
+<option value="Water">Water</option>
+
+<option value="Electric">Electric</option>
+
+<option value="Psychic">Psychic</option>
+
+<option value="Fairy">Fairy</option>
+
+<option value="Bug">Bug</option>
+
+<option value="Flying">Flying</option>
+
+<option value="Poison">Poison</option>
+
+<option value="Normal">Normal</option>
+
+<option value="Steel">Steel</option>
+
+<option value="Ghost">Ghost</option>
+
+<option value="Dark">Dark</option>
+
+</select><br><br>
+
+<label for="evolvesFrom">Evolves From:</label>
+
+<input type="text" id="evolvesFrom" name="evolvesFrom"><br><br>
+
+<label for="evolvesTo">Evolves To:</label>
+
+<input type="text" id="evolvesTo" name="evolvesTo"><br><br>
+
+<label for="nickname">Nickname:</label>
+
+<input type="text" id="nickname" name="nickname"><br><br>
+
+<label for="birthday">Birthday:</label>
+
+<input type="date" id="birthday" name="birthday"><br><br>
+
+<input type="submit" value="Submit">
+
+</form>
+<h2>Pokemon Data Table</h2>
+<table border="1">
+<tr>
+<th>National Dex</th>
+<th>Generation</th>
+<th>Pokemon Name</th>
+<th>Image</th>
+<th>Type 1</th>
+<th>Type 2</th>
+<th>Evolves From</th>
+<th>Evolves To</th>
+<th>Nickname</th>
+<th>Birthday</th>
+</tr>
+<tr align="center">
+
+    <td>202311543</td>
+
+    <td>Gen 1</td>
+
+    <td>Angela</td>
+
+    <td>
+        <img width="100px" height="100px"
+           src="https://scontent.fmnl3-2.fna.fbcdn.net/v/t39.30808-6/440047616_1122910042094397_2822484939629420973_n.jpg?stp=cp6_dst-jpg&_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFC-Bf3ZQTcXuFxghXxZGhpv-gSAnL0lyK_6BICcvSXIrZffPeQIim0LZUrr-JjejxSuuSJLW8XeC7JNvj7dRyS&_nc_ohc=iu5JqnEarMwQ7kNvgFcs3jb&_nc_ht=scontent.fmnl3-2.fna&oh=00_AfDoYHeu-W7E_8NJfZ78iEfHtq9HP5glFaNCjaj8AgWrFQ&oe=6642AEDA"
+    </td>
+
+    <td style="background-color: pink;"colspan="2"> <font color="white">Fairy</font></td>
+
+    <td>Lover Girl</td>
+
+    <td>Backburner</td>
+
+    <td>Mandy</td>
+
+    <td>06-01-2004</td>
+
+</tr>
+<tr align="center">
+
+    <td>#0023</td>
+
+    <td>Gen 1</td>
+
+    <td>Ekans</td>
+
+    <td>
+        <img width="100px" height="100px"
+           src="https://archives.bulbagarden.net/media/upload/thumb/d/d2/0023Ekans.png/105px-0023Ekans.png"
+    </td>
+
+    <td style="background-color: purple;"colspan="2"> <font color="white">Poison</font></td>
+
+    <td>Arkbok</td>
+
+    <td>Arkbok</td>
+
+    <td>Ursula</td>
+
+    <td>09-09-2020</td>
+
+</tr>
+<tr align="center">
+
+    <td>#0025</td>
+
+    <td>Gen 1</td>
+
+    <td>Pikachu</td>
+
+    <td>
+        <img width="100px" height="100px"
+           src="https://archives.bulbagarden.net/media/upload/thumb/4/4a/0025Pikachu.png/105px-0025Pikachu.png"
+    </td>
+
+    <td style="background-color: yellow;"colspan="2"> <font color="black">Electric</font></td>
+
+    <td>Pichu</td>
+
+    <td>Raichu</td>
+
+    <td>Electric squirrel</td>
+
+    <td>07-11-2014</td>
+
+</tr>
+<tr align="center">
+
+    <td>#0035</td>
+
+    <td>Gen 1</td>
+
+    <td>Clefairy</td>
+
+    <td>
+        <img width="100px" height="100px"
+           src="https://archives.bulbagarden.net/media/upload/thumb/b/b7/0035Clefairy.png/375px-0035Clefairy.png"
+    </td>
+
+    <td style="background-color: pink;"colspan="2"> <font color="white">Fairy</font></td>
+
+    <td>Cleffa</td>
+
+    <td>Clefable</td>
+
+    <td>Mochi</td>
+
+    <td>05-01-2013</td>
+
+</tr>
+<tr align="center">
+
+    <td>#0098</td>
+
+    <td>Gen 1</td>
+
+    <td>Krabby</td>
+
+    <td>
+        <img width="100px" height="100px"
+           src="https://archives.bulbagarden.net/media/upload/thumb/e/ed/0098Krabby.png/375px-0098Krabby.png"
+    </td>
+
+    <td style="background-color: pink;"colspan="2"> <font color="white">Fairy</font></td>
+
+    <td> - </td>
+
+    <td>Kingler</td>
+
+    <td>Alaskan King Crab</td>
+
+    <td>05-01-2013</td>
+
+</tr>
+<tr align="center">
+
+    <td>#0012</td>
+
+    <td>Gen 1</td>
+
+    <td>Butterfree</td>
+
+    <td>
+        <img width="100px" height="100px"
+           src="https://archives.bulbagarden.net/media/upload/thumb/5/55/0012Butterfree.png/375px-0012Butterfree.png"
+    </td>
+
+    <td style="background-color: olive;> <font color="white">Bug</font></td>
+
+    <td style="background-color: skyblue;> <font color="white">Flying</font></td>
+
+    <td>Metapod</td>
+
+    <td> - </td>
+
+    <td>Devil Fly</td>
+
+    <td>10-01-2004</td>
+
+</tr>
+<tr align="center">
+
+    <td>#0398</td>
+
+    <td>Gen 1</td>
+
+    <td>Starly</td>
+
+    <td>
+        <img width="100px" height="100px"
+           src="https://archives.bulbagarden.net/media/upload/thumb/9/9b/0396Starly.png/375px-0396Starly.png"
+    </td>
+
+    <td style="background-color: gray;> <font color="white">Normal</font></td>
+
+    <td style="background-color: skyblue;> <font color="white">Flying</font></td>
+
+    <td>Metapod</td>
+
+    <td> - </td>
+
+    <td>Devil Fly</td>
+
+    <td>10-01-2004</td>
+
+<tr align="center">
+
+    <td>#0415</td>
+
+    <td>Gen 1</td>
+
+    <td>Combee</td>
+
+    <td>
+        <img width="100px" height="100px"
+           src="https://archives.bulbagarden.net/media/upload/thumb/3/30/0415Combee.png/375px-0415Combee.png"
+    </td>
+
+    <td style="background-color: olive;> <font color="white">Bug</font></td>
+
+    <td style="background-color: skyblue;> <font color="white">Flying</font></td>
+
+    <td> - </td>
+
+    <td>Vespiquen</td>
+
+    <td>Tri-bee</td>
+
+    <td>10-11-2021</td>
+
+<tr align="center">
+
+    <td>#0436</td>
+
+    <td>Gen 1</td>
+
+    <td>Bronzor</td>
+
+    <td>
+        <img width="100px" height="100px"
+           src="https://archives.bulbagarden.net/media/upload/thumb/7/7d/0436Bronzor.png/375px-0436Bronzor.png"
+    </td>
+
+    <td style="background-color: aquamarine;> <font color="white">Steel</font></td>
+
+    <td style="background-color: fuchsia;> <font color="white">Psychic</font></td>
+
+    <td>Bronzong</td>
+
+    <td>Bronzong</td>
+
+    <td>Landmine</td>
+
+    <td>9-11-2021</td>
+
+<tr align="center">
+
+    <td>#0442</td>
+
+    <td>Gen 1</td>
+
+    <td>Spiritomb</td>
+
+    <td>
+        <img width="100px" height="100px"
+           src="https://archives.bulbagarden.net/media/upload/thumb/3/39/0442Spiritomb.png/375px-0442Spiritomb.png"
+    </td>
+
+    <td style="background-color: darkmagenta;> <font color="white">Ghost</font></td>
+
+    <td style="background-color: brown;> <font color="white">Dark</font></td>
+
+    <td> - </td>
+
+    <td> - </td>
+
+    <td>Sprite Rose</td>
+
+    <td>11-11-2011</td>
+
+</tr>
+</table>
+</body>
+</html>
