@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    text-align: center;
+    background-image: url(bg2.jpg);
+    background-size: cover; 
+ }
+
+ img {
+    height: 200px;
+    text-align: left;
+ }
+
+ logo {
+    display: block;
+   margin: 0 auto 20px;
+   max-width: 150px;
+   float: left;
+ }
+
+ .heading{
+    font: size 4rem;
+    font-family: "Brygada 1918", serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
+ }
+
+ .subheading{
+    font-size:2rem;
+    margin-top: 0; 
+    margin-bottom: 5px;
+ }
+
+ span{
+    color: rgb(225, 240, 92);
+ }
+
+ p{
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+
+
+
+ 
