@@ -171,45 +171,97 @@ img {
  
     #grass {
         background-color: rgb(14, 191, 14);
+        box-shadow: 2px 2px 2px 2px;
+        font-weight: 300;
+        font-size: large;
+        color: hotpink;
     }
  
     #poison {
         background-color: violet;
+        box-shadow: 2px 2px 2px 2px;
+        font-weight: 300;
+        font-size: large;
+        color: hotpink;
     }
  
     #bug {
         background-color: rgb(84, 112, 28);
+        box-shadow: 2px 2px 2px 2px;
+        font-weight: 300;
+        font-size: large;
+        color: hotpink;
     }
  
     #fire {
         background-color: red;
+        box-shadow: 2px 2px 2px 2px;
+        font-weight: 300;
+        font-size: large;
+        color: hotpink;
     }
  
     #dragon {
         background-color: darkblue;
+        box-shadow: 2px 2px 2px 2px;
+        font-weight: 300;
+        font-size: large;
+        color: hotpink;
     }
  
     #normal {
         background-color: gray;
+        box-shadow: 2px 2px 2px 2px;
+        font-weight: 300;
+        font-size: large;
+        color: black;
     }
  
     #ghost {
         background-color: darkviolet;
+        box-shadow: 2px 2px 2px 2px;
+        font-weight: 300;
+        font-size: large;
+        color: black;
     }
  
     #fairy {
         background-color: hotpink;
+        box-shadow: 2px 2px 2px 2px;
+        font-weight: 300;
+        font-size: large;
+        color: hotpink;
     }
  
     #fighting {
         background-color: orangered;
+        box-shadow: 2px 2px 2px 2px;
+        font-weight: 300;
+        font-size: large;
+        color: hotpink;
     }
  
     #flying {
         background-color: rgb(91, 91, 172);
+        box-shadow: 2px 2px 2px 2px;
+        font-weight: 300;
+        font-size: large;
+        color: hotpink;
+    }
+ 
+    #electric {
+        background-color: rgb(230, 79, 9);
+        box-shadow: 2px 2px 2px 2px pink;
+        font-weight: 300;
+        font-size: large;
+        color: white;
     }
  
     #water {
         background-color: aquamarine;
+        box-shadow: 2px 2px 2px 2px pink;
+        font-weight: 300;
+        font-size: large;
+        color: white;
     }
 }
