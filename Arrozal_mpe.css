@@ -11,7 +11,7 @@ body {
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
-    background-color: black;
+    background-color: rgb(239, 255, 137);
     justify-content: center;
     display: flex;
 }
@@ -19,6 +19,7 @@ body {
 .flex-container {
     margin: 1rem;
     padding: 1rem;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -31,7 +32,7 @@ body {
     width: auto;
     height: auto;
     padding: 1rem;
-    box-shadow: 2px solid black;
+    box-shadow: 6px solid black;
     border: 2px solid black;
     flex-grow: 1;
     text-align: center;
