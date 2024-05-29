@@ -10,7 +10,7 @@ body {
     text-align: center;
     background-position: top center;
     background-repeat: no-repeat;
-    background-color: rgb(230, 156, 181);
+    background-color: rgb(239, 255, 137);
     justify-content: center;
     display: flex;
 }
@@ -24,7 +24,7 @@ body {
     flex-wrap: wrap;
     text-align: center;
     gap: 10px;
-    background-image: url("bg_forest.png");
+    background-image: url("peakpx.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 5px;
@@ -116,7 +116,7 @@ img {
     }
  
     .box:hover {
-        background-image: url(bg_hover_final.jpg);
+        background-image: url(hovertoot.jpg);
     }
  
     img {
