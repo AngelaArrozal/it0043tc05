@@ -1,0 +1,50 @@
+#contact {
+    padding: 50px;
+    background-color: #021B1A;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 36px;
+    color: rgb(169, 247, 74);
+    margin-bottom: 30px;
+}
+
+#contact p {
+    font-size: 18px;
+    color: #ffffff;
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact p img.icon {
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+    filter: invert(1);
+}
+
+.social-media {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 60px; /* Increased gap */
+}
+
+.social-media a {
+    display: inline-block;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.social-media img {
+    height: 50px;
+    width: 50px;
+    filter: drop-shadow(0 0 5px #78FE8E);
+}
+
+.social-media a:hover img {
+    transform: scale(1.2);
+    box-shadow: 0 0 15px #78FE8E;
+}
